@@ -59,3 +59,4 @@ SQLite (file-based, no setup needed)
 
 For questions or suggestions, reach out to INI8 Labs.
 # django_registration
+# django_registration
