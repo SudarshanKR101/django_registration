@@ -53,10 +53,6 @@ Go to: `http://127.0.0.1:8000/`
 
 SQLite (file-based, no setup needed)
 
----
 
-## Contact
 
-For questions or suggestions, reach out to INI8 Labs.
-# django_registration
-# django_registration
+
