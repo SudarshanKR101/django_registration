@@ -47,15 +47,25 @@ python manage.py runserver
 Go to: `http://127.0.0.1:8000/`
 
 ================================================================
-Project Structure
+## Project Structure
 
-django_registration/
-├── registration/       # Django app with models, views, forms, templates
-├── django_registration/ # Project settings
-├── templates/          # Shared HTML templates
-├── static/             # Static files (CSS, JS)
+
+registration_project_simple/
+├── register/                  # Django app
+│   ├── models.py              # Registration model
+│   ├── views.py               # CRUD views
+│   ├── urls.py                # App-specific routes
+│   ├── templates/
+│       └── register/
+│           ├── list.html
+│           ├── form.html
+│           └── confirm_delete.html
+├── registration_project/     # Django project config
+│   ├── settings.py
+│   ├── urls.py
 ├── manage.py
-└── requirements.txt
+├── db.sqlite3 (after migration)
+
 ==================================================================
 ## Default Database
 
